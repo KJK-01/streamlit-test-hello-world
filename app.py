@@ -1,10 +1,10 @@
 #import base64
 #import streamlit as st
 
-import streamlit.components.v1 as components
+#import streamlit.components.v1 as components
 
 # embed streamlit docs in a streamlit app
-components.iframe("https://hello-world-23537.web.app/index/", height=500)
+#components.iframe("https://hello-world-23537.web.app/index/", height=500)
 
 # Define your javascript
 #my_js = """
