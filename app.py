@@ -50,10 +50,6 @@
 import streamlit as st
 
 conn = st.connection("snowflake")
-df = conn.query("SELECT * FROM mytable;", ttl=0)
-
-for row in df.itertuples():
-    st.write(f"{row.REGION} , {row.MANAGER} , {row.SHOP_SIZE}")
 
 option = st.selectbox(
     "Which region are you editing?",
